@@ -12,6 +12,7 @@ const Products = () => {
 
     return (
         <div>
+            <h2 className='font-semibold my-8 text-3xl'>Per kg Price</h2>
             {
                 products.map(product => <Product product={product}></Product>)
             }
