@@ -11,11 +11,13 @@ const Products = () => {
     }, []);
 
     return (
-        <div>
+        <div className='order-1 md:pr-12 md:w-3/4'>
             <h2 className='font-semibold my-8 text-3xl'>Per kg Price</h2>
-            {
-                products.map(product => <Product product={product}></Product>)
-            }
+            <div className='gap-4 md:grid grid-cols-3'>
+                {
+                    products.map(product => <Product product={product}></Product>)
+                }
+            </div>
         </div>
     );
 };
