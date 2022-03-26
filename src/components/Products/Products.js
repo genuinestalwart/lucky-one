@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import Product from '../Product/Product';
 
-const Products = () => {
+const Products = (props) => {
     const [products, setProducts] = useState([]);
 
     useEffect(() => {
@@ -15,7 +15,7 @@ const Products = () => {
             <h2 className='font-semibold my-8 text-3xl'>Per kg Price</h2>
             <div className='gap-4 md:grid grid-cols-3'>
                 {
-                    products.map(product => <Product product={product}></Product>)
+                    products.map(product => <Product addToCart={props.handler} product={product}></Product>)
                 }
             </div>
         </div>
