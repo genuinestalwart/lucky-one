@@ -2,7 +2,7 @@ import React from 'react';
 import Item from '../Item/Item';
 
 const Items = (props) => {
-    const items = props.itemlist;
+    const items = [...new Set(props.itemlist)];
     return (
         <div>
             {
