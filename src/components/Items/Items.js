@@ -6,7 +6,7 @@ const Items = (props) => {
     return (
         <div>
             {
-                items.map(item => <Item item={item}></Item>)
+                items.map(item => <Item deleteItem={props.di} item={item}></Item>)
             }
         </div>
     );

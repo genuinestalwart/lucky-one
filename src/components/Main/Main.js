@@ -19,6 +19,11 @@ const Main = () => {
         setItems(newItems);
     };
 
+    const deleteItem = id => {
+        const newItems = items.filter(el => el.id !== id);
+        setItems(newItems);
+    };
+
     const chooseAgain = () => {
         setItems([]);
     };
@@ -26,7 +31,7 @@ const Main = () => {
     return (
         <main className='m-8 md:mx-12'>
             <div className='md:flex'>
-                <Cart handler={chooseAgain} items={items}></Cart>
+                <Cart di={deleteItem} handler={chooseAgain} items={items}></Cart>
                 <Products handler={addToCart}></Products>
             </div>
             <Answers></Answers>
