@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Rice",
+        "price": 70,
+        "image": "https://images.freeimages.com/images/large-previews/2a1/rice-1194546.jpg"
+    },
+    {
+        "id": 2,
+        "name": "Potato",
+        "price": 25,
+        "image": "https://images.freeimages.com/images/large-previews/9b3/potatoes-1325508.jpg"
+    },
+    {
+        "id": 3,
+        "name": "Onion",
+        "price": 45,
+        "image": "https://images.freeimages.com/images/large-previews/47d/onion-1322677.jpg"
+    },
+    {
+        "id": 4,
+        "name": "Sugar",
+        "price": 85,
+        "image": "https://images.freeimages.com/images/large-previews/481/sugar-1427253.jpg"
+    },
+    {
+        "id": 5,
+        "name": "Moshur dal",
+        "price": 80,
+        "image": "https://images.freeimages.com/images/large-previews/8d4/organic-orange-lentils-texture-1146967.jpg"
+    },
+    {
+        "id": 6,
+        "name": "Tomato",
+        "price": 60,
+        "image": "https://images.freeimages.com/images/large-previews/af9/tomato-1325394.jpg"
+    },
+    {
+        "id": 7,
+        "name": "Garlic",
+        "price": 120,
+        "image": "https://images.freeimages.com/images/large-previews/4f4/garlic-1527215.jpg"
+    },
+    {
+        "id": 8,
+        "name": "Ginger",
+        "price": 100,
+        "image": "https://images.freeimages.com/images/large-previews/62c/ginger-garlic-1158115.jpg"
+    },
+    {
+        "id": 9,
+        "name": "Dried chilli",
+        "price": 100,
+        "image": "https://images.freeimages.com/images/large-previews/09b/dried-chilli-1531254.jpg"
+    }
+]
