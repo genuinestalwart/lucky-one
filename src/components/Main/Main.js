@@ -19,10 +19,14 @@ const Main = () => {
         setItems(newItems);
     };
 
+    const chooseAgain = () => {
+        setItems([]);
+    };
+
     return (
         <main className='m-8 md:mx-12'>
             <div className='md:flex'>
-                <Cart itemlist={items}></Cart>
+                <Cart handler={chooseAgain} items={items}></Cart>
                 <Products handler={addToCart}></Products>
             </div>
             <Answers></Answers>
