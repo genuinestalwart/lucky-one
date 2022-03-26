@@ -5,7 +5,7 @@ import Products from '../Products/Products';
 
 const Main = () => {
     return (
-        <main>
+        <main className='m-4'>
             <div>
                 <Cart></Cart>
                 <Products></Products>
